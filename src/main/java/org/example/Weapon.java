@@ -8,8 +8,9 @@ private int damage;
 private double attackSpeed;
 
 Weapon(int damage, double attackSpeed){
+    this.damage=damage;
 this.attackSpeed=attackSpeed;
-this.damage=damage;
+
 }
 public int getDamage(){
     return this.damage;

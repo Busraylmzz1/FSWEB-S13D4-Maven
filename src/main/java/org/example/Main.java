@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Point first = new Point(6, 5);
+       /* Point first = new Point(6, 5);
         Point second = new Point(3, 1);
 
         System.out.println("distance(0,0)= " + first.distance());
@@ -13,7 +13,9 @@ public class Main {
 
         Point point = new Point(0,0);
 
-        System.out.println("distance()= " + point.distance());
+        System.out.println("distance()= " + point.distance());*/
+        Player player= new Player("büş", 100,Weapon.AXE);
+        System.out.println("healthRemaining: "+ player.healthRemaining());
 
 
     }
